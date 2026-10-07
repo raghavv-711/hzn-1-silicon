@@ -2,7 +2,7 @@
 
 # HZN-1 real silicon: Mode S CRC-24 checker
 
-The first real piece of [HZN-1](https://raghavv-711.github.io/hzn-1/), a concept chip that listens to aircraft
+The first real piece of [HZN-1](https://hzn1.com/), a concept chip that listens to aircraft
 ADS-B broadcasts and estimates each plane's fuel. This block checks the 24-bit code at the end of every Mode S
 message and reads back the aircraft's ICAO address, built as a real chip layout for the SkyWater SKY130 process
 through [Tiny Tapeout](https://tinytapeout.com).
